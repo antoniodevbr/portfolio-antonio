@@ -1,0 +1,149 @@
+{
+  "Metadata": {
+    "title": "Antonio Nascimento Jr. — Senior Backend Engineer",
+    "description": "Senior Backend Engineer with 7+ years of experience in Java, Spring Boot, event-driven architectures and AWS."
+  },
+  "Nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "Hero": {
+    "role": "Senior Backend Engineer",
+    "location": "Brazil",
+    "bio": "7+ years designing scalable, distributed and high-throughput systems with Java, Spring Boot, event-driven architectures and AWS.",
+    "downloadCv": "Download CV"
+  },
+  "About": {
+    "title": "About",
+    "text": "Senior Backend Engineer with 7+ years of experience designing scalable, distributed, and high-throughput systems. Specialized in Java, Spring Boot, event-driven architectures, and AWS cloud environments, delivering resilient enterprise solutions with high code quality and Domain-Driven Design."
+  },
+  "Experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": [
+      {
+        "company": "Sportingtech",
+        "role": "Senior Backend Software Engineer",
+        "start": "Feb 2026",
+        "end": "",
+        "location": "Sofia, Bulgaria (Remote)",
+        "description": "Lead backend engineering initiatives for a high-scale white-label iGaming platform, delivering regulatory compliance engines, fraud prevention workflows, and multi-region market expansion.",
+        "highlights": [
+          "Integrated automated KYC and identity verification providers (Sumsub, Legitimuz) into user registration flows, mitigating automated bot traffic and ensuring seamless onboarding security.",
+          "Engineered core responsible gaming modules enforcing strict loss thresholds and session-duration limits, ensuring compliance with federal gaming mandates across white-label tenants.",
+          "Developed automated Slack incident alerting and monitoring around batch processing jobs validating government-restricted individuals (SIGAP), drastically reducing triage response times for compliance issues."
+        ],
+        "tags": ["Java 21", "Spring Boot", "RabbitMQ"]
+      },
+      {
+        "company": "Itaú Unibanco",
+        "role": "Senior Software Engineer",
+        "start": "Mar 2025",
+        "end": "Feb 2026",
+        "location": "São Paulo, Brazil (Hybrid)",
+        "description": "Architected and scaled cloud-native microservices for Itaú's flagship customer loyalty program (\"Mais Vantagens\"), leveraging modern Java, AWS services, and event-driven data streaming.",
+        "highlights": [
+          "Engineered and maintained 4 mission-critical Java microservices to orchestrate customer loyalty rewards, scaling the platform to over 100k active users within one year while processing 500k+ monthly benefit distributions.",
+          "Designed robust event-driven workflows utilizing Apache Kafka, AWS SQS, and API Gateway on AWS ECS, ensuring sub-second response times and high fault tolerance across distributed services.",
+          "Implemented a polyglot persistence strategy using AWS DynamoDB for low-latency operational state retrieval and AWS RDS for relational transactional consistency, paired with AWS Glue ETL jobs for analytical reporting.",
+          "Established comprehensive observability and proactive tracing using Datadog, optimizing system bottlenecks, maintaining SLA adherence, and driving operational resilience."
+        ],
+        "tags": ["Java", "Kafka", "AWS", "DynamoDB", "Datadog"]
+      },
+      {
+        "company": "Unico IDTech",
+        "role": "Senior Software Engineer",
+        "start": "Apr 2021",
+        "end": "Mar 2025",
+        "location": "São Paulo, Brazil (Remote)",
+        "description": "Led end-to-end engineering initiatives for core digital identity and onboarding products (Unico People, Unico Sign), architecting scalable microservices.",
+        "highlights": [
+          "Led the modernization of the document analysis engine, migrating legacy Angular 5 on GKE to a high-performance architecture, boosting system throughput by 35% and unlocking R$950k in new annual recurring revenue (ARR) via premium tier segregation.",
+          "Architected from scratch \"mysign\", a tamper-proof digital signature management platform capturing critical forensic audit trails, including facial biometrics and geolocation metadata to ensure document authenticity.",
+          "Automated bank account verification workflows using Transfeera micro-deposits, eliminating payment failure incidents, reducing support tickets, and ensuring zero-touch recipient account validation.",
+          "Engineered automated proof-of-address verification pipelines for candidate onboarding, eliminating manual data entry, accelerating approval rates, and cutting operational review overhead.",
+          "Conducted technical and behavioral interview loops resulting in 6 successful engineering hires, while mentoring peers and earning multiple annual Quality and Merit Recognition awards."
+        ],
+        "tags": ["Go", "Angular", "GCP", "MongoDB", "Redis"]
+      },
+      {
+        "company": "Santander Brasil",
+        "role": "Software Engineer",
+        "start": "May 2019",
+        "end": "Apr 2021",
+        "location": "São Paulo, Brazil",
+        "description": "Engineered digital onboarding platforms and modernized mission-critical ATM banking infrastructure.",
+        "highlights": [
+          "Core engineer on the flagship digital onboarding platform (\"Abra Sua Conta\"), scaling the solution to exceed 3+ million new customer account openings.",
+          "Modernized legacy ATM architecture by migrating mission-critical mainframe COBOL systems to a robust Java 11 microservices and Angular stack, significantly lowering maintenance overhead and boosting transaction speed.",
+          "Integrated APM observability tooling (Dynatrace) and enterprise DB2 relational data workflows to monitor real-time banking transactions and optimize system availability.",
+          "Received the standout ATM Engineering Award for exceptional impact and technical contributions to modernizing ATM self-service software."
+        ],
+        "tags": ["Java 11", "Angular", "Oracle DB", "DB2", "Dynatrace"]
+      },
+      {
+        "company": "ABTRA — Brazilian Association of Terminals and Bonded Warehouses",
+        "role": "Software Engineering Intern",
+        "start": "Nov 2017",
+        "end": "May 2019",
+        "location": "Santos, Brazil",
+        "description": "Maintained legacy port logistics software and engineered data integration APIs and BI reporting pipelines.",
+        "highlights": [
+          "Engineered RESTful backend APIs in ASP.NET to process and deliver real-time container throughput metrics, origins, and destinations across the Port of Santos.",
+          "Built automated ETL workflows and BI reporting pipelines delivering trade statistics, cargo volumes, and bilateral trade indicators directly to port authorities and government agencies.",
+          "Maintained and improved mission-critical legacy desktop systems in Visual Basic 6 (VB6), optimizing SQL queries to streamline data retrieval for port logistics."
+        ],
+        "tags": ["ASP.NET", "VB6", "SQL", "ETL"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "Sukiyaki Event Management Platform",
+        "description": "Full-stack event management and real-time ticketing platform handling table reservations and digital media galleries for a cultural festival.",
+        "highlights": [
+          "Architected a high-concurrency seat reservation engine, implementing optimistic/pessimistic locking mechanisms to eliminate race conditions and prevent double-booking during peak traffic.",
+          "Built a digital media gallery module enabling automated photo processing, secure upload workflows, and low-latency asset delivery for attendees."
+        ],
+        "tags": ["Distributed Locking", "Concurrency Control", "REST APIs", "Cloud Storage", "PostgreSQL", "Redis"]
+      },
+      {
+        "name": "Confirm Your Presence (RSVP SaaS)",
+        "description": "Modern guest management and RSVP web application designed to streamline wedding attendee confirmations and seating logistics.",
+        "highlights": [
+          "Developed an automated guest confirmation platform supporting real-time RSVP tracking, guest-list status analytics, and automated notification triggers.",
+          "Designed an intuitive self-service portal handling dynamic plus-one validations and dietary/attendance data collection with high mobile responsiveness."
+        ],
+        "tags": ["SaaS Architecture", "Event-Driven Notifications", "REST APIs", "Cloud Hosting", "Clean Architecture"]
+      }
+    ]
+  },
+  "Skills": {
+    "title": "Skills",
+    "groups": [
+      { "label": "Backend & Core Languages", "items": ["Java (8, 11, 17, 21)", "Go", "Spring Boot", "Spring Cloud"] },
+      { "label": "Databases & Storage", "items": ["PostgreSQL", "MongoDB", "DynamoDB", "Redis", "Oracle DB"] },
+      { "label": "Observability & Practices", "items": ["Datadog", "Dynatrace", "New Relic", "Sentry", "CI/CD", "Git", "Unit & Integration Testing"] },
+      { "label": "Frontend", "items": ["TypeScript", "JavaScript", "Angular", "React"] },
+      { "label": "Languages", "items": ["English (Full Professional)", "Portuguese (Native)"] }
+    ]
+  },
+  "Education": {
+    "title": "Education",
+    "items": [
+      { "degree": "B.S. Information Systems", "school": "Catholic University of Santos", "start": "Jan 2016", "end": "Dec 2019" }
+    ]
+  },
+  "Contact": {
+    "title": "Contact",
+    "text": "Feel free to reach out for opportunities or just to say hi."
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  }
+}

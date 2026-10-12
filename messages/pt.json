@@ -1,0 +1,149 @@
+{
+  "Metadata": {
+    "title": "Antonio Nascimento Jr. — Engenheiro Backend Sênior",
+    "description": "Engenheiro Backend Sênior com mais de 7 anos de experiência em Java, Spring Boot, arquiteturas orientadas a eventos e AWS."
+  },
+  "Nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "language": "Idioma"
+  },
+  "Hero": {
+    "role": "Engenheiro Backend Sênior",
+    "location": "Brasil",
+    "bio": "Mais de 7 anos projetando sistemas escaláveis, distribuídos e de alto throughput com Java, Spring Boot, arquiteturas orientadas a eventos e AWS.",
+    "downloadCv": "Baixar currículo"
+  },
+  "About": {
+    "title": "Sobre",
+    "text": "Engenheiro Backend Sênior com mais de 7 anos de experiência projetando sistemas escaláveis, distribuídos e de alto throughput. Especializado em Java, Spring Boot, arquiteturas orientadas a eventos e ambientes de nuvem AWS, entregando soluções corporativas resilientes com alta qualidade de código e Domain-Driven Design."
+  },
+  "Experience": {
+    "title": "Experiência",
+    "present": "Atual",
+    "items": [
+      {
+        "company": "Sportingtech",
+        "role": "Engenheiro de Software Backend Sênior",
+        "start": "fev 2026",
+        "end": "",
+        "location": "Sófia, Bulgária (Remoto)",
+        "description": "Lidero iniciativas de engenharia backend para uma plataforma white-label de iGaming de alta escala, entregando motores de conformidade regulatória, fluxos de prevenção a fraudes e expansão para múltiplos mercados.",
+        "highlights": [
+          "Integrei provedores automatizados de KYC e verificação de identidade (Sumsub, Legitimuz) aos fluxos de cadastro, mitigando tráfego de bots e garantindo um onboarding seguro e fluido.",
+          "Desenvolvi os módulos centrais de jogo responsável, aplicando limites rígidos de perdas e de duração de sessão, garantindo conformidade com as normas federais de apostas em todos os tenants white-label.",
+          "Criei alertas automáticos de incidentes no Slack e monitoramento dos jobs em lote que validam pessoas com restrições governamentais (SIGAP), reduzindo drasticamente o tempo de triagem de problemas de conformidade."
+        ],
+        "tags": ["Java 21", "Spring Boot", "RabbitMQ"]
+      },
+      {
+        "company": "Itaú Unibanco",
+        "role": "Engenheiro de Software Sênior",
+        "start": "mar 2025",
+        "end": "fev 2026",
+        "location": "São Paulo, Brasil (Híbrido)",
+        "description": "Projetei e escalei microsserviços cloud-native para o principal programa de fidelidade do Itaú (\"Mais Vantagens\"), utilizando Java moderno, serviços AWS e streaming de dados orientado a eventos.",
+        "highlights": [
+          "Desenvolvi e mantive 4 microsserviços Java críticos para orquestrar as recompensas de fidelidade, escalando a plataforma para mais de 100 mil usuários ativos em um ano e processando mais de 500 mil distribuições de benefícios por mês.",
+          "Projetei fluxos robustos orientados a eventos com Apache Kafka, AWS SQS e API Gateway no AWS ECS, garantindo tempos de resposta abaixo de um segundo e alta tolerância a falhas entre serviços distribuídos.",
+          "Implementei uma estratégia de persistência poliglota com AWS DynamoDB para leitura de estado operacional com baixa latência e AWS RDS para consistência transacional, junto a jobs de ETL no AWS Glue para relatórios analíticos.",
+          "Estabeleci observabilidade abrangente e tracing proativo com Datadog, otimizando gargalos, mantendo a aderência aos SLAs e fortalecendo a resiliência operacional."
+        ],
+        "tags": ["Java", "Kafka", "AWS", "DynamoDB", "Datadog"]
+      },
+      {
+        "company": "Unico IDTech",
+        "role": "Engenheiro de Software Sênior",
+        "start": "abr 2021",
+        "end": "mar 2025",
+        "location": "São Paulo, Brasil (Remoto)",
+        "description": "Liderei iniciativas de engenharia de ponta a ponta para os principais produtos de identidade digital e onboarding (Unico People, Unico Sign), projetando microsserviços escaláveis.",
+        "highlights": [
+          "Liderei a modernização do motor de análise de documentos, migrando o legado em Angular 5 no GKE para uma arquitetura de alto desempenho, aumentando o throughput em 35% e gerando R$950 mil em nova receita recorrente anual (ARR) com a segregação de um plano premium.",
+          "Projetei do zero o \"mysign\", uma plataforma de gestão de assinaturas digitais à prova de adulteração, que registra trilhas de auditoria forense, incluindo biometria facial e geolocalização, para garantir a autenticidade dos documentos.",
+          "Automatizei a verificação de contas bancárias com microdepósitos da Transfeera, eliminando falhas de pagamento, reduzindo chamados de suporte e validando as contas dos destinatários sem intervenção manual.",
+          "Desenvolvi pipelines automatizados de verificação de comprovante de endereço para o onboarding de candidatos, eliminando a digitação manual, acelerando as aprovações e reduzindo o custo da revisão operacional.",
+          "Conduzi entrevistas técnicas e comportamentais que resultaram em 6 contratações de engenharia, além de mentorar colegas e receber diversos prêmios anuais de Qualidade e Mérito."
+        ],
+        "tags": ["Go", "Angular", "GCP", "MongoDB", "Redis"]
+      },
+      {
+        "company": "Santander Brasil",
+        "role": "Engenheiro de Software",
+        "start": "mai 2019",
+        "end": "abr 2021",
+        "location": "São Paulo, Brasil",
+        "description": "Desenvolvi plataformas de onboarding digital e modernizei a infraestrutura crítica dos caixas eletrônicos (ATM).",
+        "highlights": [
+          "Engenheiro central da principal plataforma de onboarding digital (\"Abra Sua Conta\"), escalando a solução para mais de 3 milhões de novas contas abertas.",
+          "Modernizei a arquitetura legada dos caixas eletrônicos, migrando sistemas críticos em COBOL no mainframe para microsserviços Java 11 e Angular, reduzindo significativamente o custo de manutenção e acelerando as transações.",
+          "Integrei ferramentas de observabilidade APM (Dynatrace) e fluxos de dados relacionais em DB2 para monitorar transações bancárias em tempo real e otimizar a disponibilidade do sistema.",
+          "Recebi o prêmio ATM Engineering Award pelo impacto excepcional e pelas contribuições técnicas na modernização do software de autoatendimento."
+        ],
+        "tags": ["Java 11", "Angular", "Oracle DB", "DB2", "Dynatrace"]
+      },
+      {
+        "company": "ABTRA — Associação Brasileira de Terminais e Recintos Alfandegados",
+        "role": "Estagiário de Engenharia de Software",
+        "start": "nov 2017",
+        "end": "mai 2019",
+        "location": "Santos, Brasil",
+        "description": "Mantive softwares legados de logística portuária e desenvolvi APIs de integração de dados e pipelines de relatórios de BI.",
+        "highlights": [
+          "Desenvolvi APIs REST em ASP.NET para processar e disponibilizar em tempo real métricas de movimentação de contêineres, origens e destinos no Porto de Santos.",
+          "Criei fluxos automatizados de ETL e pipelines de BI que entregam estatísticas de comércio, volumes de carga e indicadores de comércio bilateral diretamente às autoridades portuárias e órgãos governamentais.",
+          "Mantive e aprimorei sistemas desktop legados críticos em Visual Basic 6 (VB6), otimizando consultas SQL para agilizar a obtenção de dados de logística portuária."
+        ],
+        "tags": ["ASP.NET", "VB6", "SQL", "ETL"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projetos",
+    "items": [
+      {
+        "name": "Sukiyaki — Plataforma de Gestão de Eventos",
+        "description": "Plataforma full-stack de gestão de eventos e venda de ingressos em tempo real, com reserva de mesas e galerias de mídia digital para um festival cultural.",
+        "highlights": [
+          "Projetei um motor de reserva de lugares de alta concorrência, com locking otimista/pessimista para eliminar condições de corrida e evitar reservas duplicadas nos picos de acesso.",
+          "Criei um módulo de galeria de mídia com processamento automático de fotos, upload seguro e entrega de arquivos com baixa latência para os participantes."
+        ],
+        "tags": ["Locking Distribuído", "Controle de Concorrência", "APIs REST", "Cloud Storage", "PostgreSQL", "Redis"]
+      },
+      {
+        "name": "Confirm Your Presence (RSVP SaaS)",
+        "description": "Aplicação web moderna de gestão de convidados e RSVP, criada para simplificar a confirmação de presença e a organização dos lugares em casamentos.",
+        "highlights": [
+          "Desenvolvi uma plataforma automatizada de confirmação de convidados com acompanhamento de RSVP em tempo real, análise do status da lista e notificações automáticas.",
+          "Projetei um portal de autoatendimento intuitivo com validação dinâmica de acompanhantes e coleta de restrições alimentares e presença, totalmente responsivo no celular."
+        ],
+        "tags": ["Arquitetura SaaS", "Notificações Orientadas a Eventos", "APIs REST", "Cloud Hosting", "Clean Architecture"]
+      }
+    ]
+  },
+  "Skills": {
+    "title": "Habilidades",
+    "groups": [
+      { "label": "Backend e Linguagens", "items": ["Java (8, 11, 17, 21)", "Go", "Spring Boot", "Spring Cloud"] },
+      { "label": "Bancos de Dados e Armazenamento", "items": ["PostgreSQL", "MongoDB", "DynamoDB", "Redis", "Oracle DB"] },
+      { "label": "Observabilidade e Práticas", "items": ["Datadog", "Dynatrace", "New Relic", "Sentry", "CI/CD", "Git", "Testes Unitários e de Integração"] },
+      { "label": "Frontend", "items": ["TypeScript", "JavaScript", "Angular", "React"] },
+      { "label": "Idiomas", "items": ["Inglês (Profissional Pleno)", "Português (Nativo)"] }
+    ]
+  },
+  "Education": {
+    "title": "Formação",
+    "items": [
+      { "degree": "Bacharelado em Sistemas de Informação", "school": "Universidade Católica de Santos", "start": "jan 2016", "end": "dez 2019" }
+    ]
+  },
+  "Contact": {
+    "title": "Contato",
+    "text": "Fique à vontade para entrar em contato sobre oportunidades ou apenas para dizer oi."
+  },
+  "Footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}
